@@ -1,0 +1,64 @@
+.btn.active.focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, 
+.btn:active:focus, .btn:focus {
+      outline: none!important;
+}
+
+.makeOrange {
+    color: #F2511B;
+}
+
+.mobileNavLink {
+    color: #747D84;
+}
+
+a.mobileNavLink:hover, a.connectLink:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, .9)
+}
+
+.btn:hover, .btn-outline-dark:hover {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+}
+
+.btn-lg:hover {
+    background-color: #856E74;
+}
+
+#navName {
+    color: #F2511B;
+}
+
+#hamburger {
+    display: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .display-4 {
+        font-size: 42px;
+    }
+
+    .imgBottom {
+        display: none;
+    }
+
+    .mobileCenter {
+        text-align: center;
+    }
+    
+    #desktopNavLinks, #desktopConnect, #desktopEmail {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #mobileMenu, #mobileConnect {
+        display: none;
+    }
+    .imgTop {
+        display: none;
+    }
+}
+
